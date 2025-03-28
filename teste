@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Atividade de Formularios</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <font size ="4" >
+        <fieldset>
+            <legend>Dados pessoais</legend> 
+        Nome: <input type="text"><br>    
+        Endereço: <input type="text"><br>
+        Cidade: <input type="text"><br>
+        Estado: <select>
+                <option value="1">Alagoas</option>  
+                <option value="2">Bahia</option> 
+                <option value="3">Ceará</option> 
+                <option value="4">Maranhão</option> 
+                <option value="5">Paraíba</option> 
+                <option value="6">Pernambuco</option>
+                <option value="7">Piauí</option> 
+                <option value="8">Rio Grande do Norte</option> 
+                <option value="9">Sergipe</option>          
+                </select>
+        </fieldset><br>
+        
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            Natureza Do Cargo <br>
+            <Table>
+                <input type="radio"><label> Gerência</label>
+                <input type="radio"><label> Financeiro</label>
+                <input type="radio"><label> Recepção</label>
+                <input type="radio"><label> Administrativo</label>
+                <input type="radio"><label> Juridico</label>
+            </Table><br>
+            Área de interesse <br>
+            <table>
+                <input type="checkbox"><label> Computação</label>
+                <input type="checkbox"><label> Biologia</label>
+                <input type="checkbox"><label> Meio Ambiente</label>
+                <input type="checkbox"><label> Engenharia</label>
+                <input type="checkbox"><label> História</label>
+            </table><br>
+            Mini-curriculo:
+            <textarea></textarea>
+        </fieldset><br>
+        <input type="submit" value="Entrar"> <input type="submit" value="Limpar">
+        </font>
+    </body>
+</html>
