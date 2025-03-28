@@ -3,5 +3,9 @@ n2 = float(input("escreva o segunda nota"))
 n3 = float(input("escreva o terceira nota"))
 
 mediaa = ((n1+n2+n3) / 3)
+mediap = (((n1*2)+(n2*2)+(n3*3)) / 7)
+mediap2 = (((n1*1)+(n2*2)+(n3*2)) / 5)
 
 print (f"sua media aritmetica é {mediaa}")
+print (f'sua media ponderada é considerando os pesos 2, 2 e 3. {mediap}')
+print (f'sua media ponderada é considerando os pesos 1, 2 e 2. {mediap2}')
